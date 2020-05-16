@@ -2,16 +2,14 @@ import React from 'react'
 
 const Editor = (props) => {
   return (
-    <div className="uk-container uk-container-small">
+    <div className="uk-container">
       <textarea 
         id="editor" 
-        className="uk-textarea uk-text-center uk-form-width-large"
+        className="uk-textarea uk-text-center"
         rows="12"
         value={props.text} 
         onChange={props.onChange}
-        >
-      
-      </textarea>
+      ></textarea>
     </div>
   )
 }

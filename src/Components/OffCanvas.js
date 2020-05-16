@@ -4,7 +4,7 @@ const OffCanvas = () => {
   return (
     <>
       { /* This is a button toggling the off-canvas */ }
-      <button className="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #offcanvas-usage">Cheat Sheet</button>
+      <button className="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-usage">Cheat Sheet</button>
 
       { /*This is the off-canvas */}
       <div id="offcanvas-usage" uk-offcanvas="bg-close: false; flip:true">

@@ -10,8 +10,10 @@ const Preview = (props) => {
   }
 
   return (
-    <div id="preview" className="uk-container uk-container-medium">
-      <span dangerouslySetInnerHTML={rawMarkup()} />
+    <div className = "uk-container uk-container-small uk-margin">
+      <div id="preview" className="uk-card uk-card-secondary">
+        <span dangerouslySetInnerHTML={rawMarkup()} />
+      </div>
     </div>
   )
 }

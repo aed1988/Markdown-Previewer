@@ -21,7 +21,7 @@ const Content = () => {
   }
 
   return (
-    <div className="uk-section uk-section-secondary">
+    <div className="uk-section uk-section-muted">
       <Editor text={text} onChange={handleChange}/>
       <Preview text={text}/>
     </div>
